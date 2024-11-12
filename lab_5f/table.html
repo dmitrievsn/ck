@@ -3,29 +3,29 @@
 <HEAD>
     <link rel="stylesheet" href="table.css">
     <TITLE>
-        Таблица
+        РўР°Р±Р»РёС†Р°
     </TITLE>
 </HEAD>
 <BODY>
     <div class="header">
-        <a href="main.html">Основная страница</a>
-        <a href="page2.html">Позиционирование элементов</a>
-        <a href="table.html">Таблица</a>
+        <a href="main.html">РћСЃРЅРѕРІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°</a>
+        <a href="page2.html">РџРѕР·РёС†РёРѕРЅРёСЂРѕРІР°РЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ</a>
+        <a href="table.html">РўР°Р±Р»РёС†Р°</a>
     </div>
-    <h1>Таблица студентов</h1>
+    <h1>РўР°Р±Р»РёС†Р° СЃС‚СѓРґРµРЅС‚РѕРІ</h1>
     <input type="number" id="id" placeholder="ID" required>
-    <input type="text" id="fio" placeholder="ФИО студента" required>
-    <input type="text" id="recordBookNumber" placeholder="Номер зачётной книжки" required>
-    <input type="text" id="groupNumber" placeholder="Номер группы" required>
+    <input type="text" id="fio" placeholder="Р¤РРћ СЃС‚СѓРґРµРЅС‚Р°" required>
+    <input type="text" id="recordBookNumber" placeholder="РќРѕРјРµСЂ Р·Р°С‡С‘С‚РЅРѕР№ РєРЅРёР¶РєРё" required>
+    <input type="text" id="groupNumber" placeholder="РќРѕРјРµСЂ РіСЂСѓРїРїС‹" required>
     <select id="gender" required>
-        <option value="">Выберите пол</option>
-        <option value="Мужской">Мужской</option>
-        <option value="Женский">Женский</option>
+        <option value="">Р’С‹Р±РµСЂРёС‚Рµ РїРѕР»</option>
+        <option value="РњСѓР¶СЃРєРѕР№">РњСѓР¶СЃРєРѕР№</option>
+        <option value="Р–РµРЅСЃРєРёР№">Р–РµРЅСЃРєРёР№</option>
     </select>
-    <input type="number" id="age" placeholder="Возраст" required>
-    <input type="text" id="admissionForm" placeholder="Форма поступления" required>
-    <input type="text" id="direction" placeholder="Название направления" required>
-    <button onclick="addRow()">Добавить</button>
+    <input type="number" id="age" placeholder="Р’РѕР·СЂР°СЃС‚" required>
+    <input type="text" id="admissionForm" placeholder="Р¤РѕСЂРјР° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ" required>
+    <input type="text" id="direction" placeholder="РќР°Р·РІР°РЅРёРµ РЅР°РїСЂР°РІР»РµРЅРёСЏ" required>
+    <button onclick="addRow()">Р”РѕР±Р°РІРёС‚СЊ</button>
     <script>
         function addRow() {
             const id = document.getElementById('id').value;
@@ -57,69 +57,69 @@
         }
     </script>
     <table>
-        <caption>Список студентов</caption>
+        <caption>РЎРїРёСЃРѕРє СЃС‚СѓРґРµРЅС‚РѕРІ</caption>
         <thead>
             <tr>
                 <th>ID</th>
-                <th>ФИО студента</th>
-                <th>Номер зачётной книжки</th>
-                <th>Номер группы</th>
-                <th>Пол</th>
-                <th>Возраст</th>
-                <th>Форма поступления</th>
-                <th>Название направления</th>
+                <th>Р¤РРћ СЃС‚СѓРґРµРЅС‚Р°</th>
+                <th>РќРѕРјРµСЂ Р·Р°С‡С‘С‚РЅРѕР№ РєРЅРёР¶РєРё</th>
+                <th>РќРѕРјРµСЂ РіСЂСѓРїРїС‹</th>
+                <th>РџРѕР»</th>
+                <th>Р’РѕР·СЂР°СЃС‚</th>
+                <th>Р¤РѕСЂРјР° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ</th>
+                <th>РќР°Р·РІР°РЅРёРµ РЅР°РїСЂР°РІР»РµРЅРёСЏ</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Левин Григорий Вячеславович</td>
+                <td>Р›РµРІРёРЅ Р“СЂРёРіРѕСЂРёР№ Р’СЏС‡РµСЃР»Р°РІРѕРІРёС‡</td>
                 <td>049213</td>
                 <td>6101</td>
-                <td>Мужской</td>
+                <td>РњСѓР¶СЃРєРѕР№</td>
                 <td>20</td>
-                <td>Очная</td>
-                <td>ИВТ</td>
+                <td>РћС‡РЅР°СЏ</td>
+                <td>РР’Рў</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Первый Пётр Петрович</td>
+                <td>РџРµСЂРІС‹Р№ РџС‘С‚СЂ РџРµС‚СЂРѕРІРёС‡</td>
                 <td>934732</td>
                 <td>6122</td>
-                <td>Мужской</td>
+                <td>РњСѓР¶СЃРєРѕР№</td>
                 <td>67</td>
-                <td>Заочная</td>
-                <td>ИБАС</td>
+                <td>Р—Р°РѕС‡РЅР°СЏ</td>
+                <td>РР‘РђРЎ</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Смаева Александра Ивановна</td>
+                <td>РЎРјР°РµРІР° РђР»РµРєСЃР°РЅРґСЂР° РРІР°РЅРѕРІРЅР°</td>
                 <td>345678</td>
                 <td>6703</td>
-                <td>Женский</td>
+                <td>Р–РµРЅСЃРєРёР№</td>
                 <td>19</td>
-                <td>Очная</td>
-                <td>ПМИ</td>
+                <td>РћС‡РЅР°СЏ</td>
+                <td>РџРњР</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Кузнецов Алексей Викторович</td>
+                <td>РљСѓР·РЅРµС†РѕРІ РђР»РµРєСЃРµР№ Р’РёРєС‚РѕСЂРѕРІРёС‡</td>
                 <td>458729</td>
                 <td>1104</td>
-                <td>Мужской</td>
+                <td>РњСѓР¶СЃРєРѕР№</td>
                 <td>22</td>
-                <td>Очная</td>
-                <td>ПМФ</td>
+                <td>РћС‡РЅР°СЏ</td>
+                <td>РџРњР¤</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Смирнова Владислава Сергеевна</td>
+                <td>РЎРјРёСЂРЅРѕРІР° Р’Р»Р°РґРёСЃР»Р°РІР° РЎРµСЂРіРµРµРІРЅР°</td>
                 <td>567890</td>
                 <td>4135</td>
-                <td>Женский</td>
+                <td>Р–РµРЅСЃРєРёР№</td>
                 <td>20</td>
-                <td>Заочная</td>
-                <td>ФИИТ</td>
+                <td>Р—Р°РѕС‡РЅР°СЏ</td>
+                <td>Р¤РРРў</td>
             </tr>
         </tbody>
     </table>
