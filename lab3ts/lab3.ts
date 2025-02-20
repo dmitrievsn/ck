@@ -1,8 +1,8 @@
 enum Documents {
-    PASSPORT = 'Паспорт',
-    FOREIGN_PASSPORT = 'Заграничный пасспорт',
-    MILITARY_IDENTIFICATION_CARD = 'Удостоверение личности военнослужащего',
-    BIRTH_CERTIFICATE = "Свидетельство о рождении",
+    PASSPORT = 'РџР°СЃРїРѕСЂС‚',
+    FOREIGN_PASSPORT = 'Р—Р°РіСЂР°РЅРёС‡РЅС‹Р№ РїР°СЃСЃРїРѕСЂС‚',
+    MILITARY_IDENTIFICATION_CARD = 'РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ Р»РёС‡РЅРѕСЃС‚Рё РІРѕРµРЅРЅРѕСЃР»СѓР¶Р°С‰РµРіРѕ',
+    BIRTH_CERTIFICATE = "РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРѕР¶РґРµРЅРёРё",
 }
 enum Stampts {
     LADA = 'Lada',
@@ -10,14 +10,14 @@ enum Stampts {
     HAVAL = 'Haval',
 }
 enum BodyTypes {
-    UNIVERSAL = 'Универсал',
-    CABRIOLET = 'Кабриолет',
-    ROADSTER = 'Внедорожник',
+    UNIVERSAL = 'РЈРЅРёРІРµСЂСЃР°Р»',
+    CABRIOLET = 'РљР°Р±СЂРёРѕР»РµС‚',
+    ROADSTER = 'Р’РЅРµРґРѕСЂРѕР¶РЅРёРє',
 }
 enum AutoClass {
-    CABRIOLET = 'Кабриолет',
-    ROADSTER = 'Внедорожник',
-    SPORTS = 'Спорткар',
+    CABRIOLET = 'РљР°Р±СЂРёРѕР»РµС‚',
+    ROADSTER = 'Р’РЅРµРґРѕСЂРѕР¶РЅРёРє',
+    SPORTS = 'РЎРїРѕСЂС‚РєР°СЂ',
 }
 interface IOwner {
     surname: string;
