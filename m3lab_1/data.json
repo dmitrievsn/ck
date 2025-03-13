@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2021,
+      "isElectric": false,
+      "features": [ "Air Conditioning", "Navigation System" ]
+    },
+    {
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2022,
+      "isElectric": true,
+      "features": [ "Autopilot", "Long Range Battery" ]
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2020,
+      "isElectric": false,
+      "features": [ "V8 Engine", "Leather Seats" ]
+    }
+  ]
+}
