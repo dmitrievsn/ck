@@ -10,17 +10,17 @@ function fetchCarData() {
             }
             catch (error) {
                 console.error("Error parsing JSON:", error);
-                alert("������ ��� ��������� ������.");
+                alert("Ошибка при обработке данных.");
             }
         }
         else {
             console.error("Error fetching data:", xhr.statusText);
-            alert("������ ��� ��������� ������: " + xhr.statusText);
+            alert("Ошибка при получении данных: " + xhr.statusText);
         }
     };
     xhr.onerror = function () {
         console.error("Request failed");
-        alert("������ ����.");
+        alert("Ошибка сети.");
     };
     xhr.send();
 }
